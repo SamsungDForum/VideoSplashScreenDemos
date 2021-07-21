@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/03-video-finished" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="bdWPWrlQN3.03VideoFinished" package="bdWPWrlQN3" required_version="6.0"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
+    <icon src="icon.png"/>
+    <name>03-video-finished</name>
+    <tizen:profile name="tv-samsung"/>
+    <tizen:setting screen-orientation="landscape" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+    <tizen:video_splash_screen ready_when="video-finished">
+        <tizen:vss_default
+            video="res/splash-screen/splash.mp4"
+            background_image="res/splash-screen/background.png"
+            background_color="#042131"
+            image="res/splash-screen/splash.png"
+            image_border="0px stretch" />
+    </tizen:video_splash_screen>
+</widget>
