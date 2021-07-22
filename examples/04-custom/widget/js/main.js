@@ -1,26 +1,29 @@
 function ii(i, len) {
-    var s = i + "";
-    len = len || 2;
+    let s = i + "";
     while (s.length < len) s = "0" + s;
     return s;
 }
-    
+
 function log(msg) {
     let now = new Date();
     now = ii(now.getHours(), 2) + ':' + ii(now.getMinutes(), 2) + ':' + ii(now.getSeconds(), 2) + '.' + ii(now.getMilliseconds(), 3);
-    let logger = document.querySelector('div#logger');
 
-    let time = document.createElement('span');
+    const time = document.createElement('span');
     time.setAttribute('class', 'log-time');
     time.append(now)
 
-    let line = document.createElement('span');
+    const line = document.createElement('span');
     line.append(time, ' ' + msg);
     
     try {
+        const logger = document.querySelector('div#logger');
         logger.prepend(line, document.createElement('br'));
-    } catch (TypeError) {
-        // noop, output to console only
+    } catch (ex) {
+        if (ex instanceof TypeError) {
+            // noop, output to console only
+        } else {
+            throw ex;
+        }
     }
 
     console.log(now + ' [DEMO] ' + msg);
