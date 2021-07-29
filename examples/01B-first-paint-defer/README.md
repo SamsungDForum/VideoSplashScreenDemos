@@ -23,4 +23,4 @@ To get this behavior in your application, inside top-level `<widget>` element, a
 
 ## Using the example
 
-To see, how to prepare a package with this widget, see [Using the examples](../usage.md) and use the [`01-first-paint/widget`](widget) directory.
+To see, how to prepare a package with this widget, see [Using the examples](../usage.md) and use the [`01B-first-paint-defer/widget`](widget) directory.
