@@ -1,3 +1,9 @@
+<!--
+  Copyright 2021 Samsung Electronics. All rights reserved.
+  Use of this source code is governed by a BSD-style license that can be
+  found in the LICENSE file.
+-->
+
 # Complete example B
 
 The application screen should appear with the `load` event. The expected difference between `"Loaded"` and `"Focused"` logs should be miniscule, but the demo uses 10 big, slow-loading, asynchronous scripts, which introduces significant delay for the `load` event.

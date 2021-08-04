@@ -1,3 +1,7 @@
+// Copyright 2021 Samsung Electronics. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
 function ii(i, len) {
     let s = i + "";
     while (s.length < len) s = "0" + s;

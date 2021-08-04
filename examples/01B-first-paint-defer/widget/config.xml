@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/01A-first-paint-defer" version="1.0.0" viewmodes="maximized">
-    <tizen:application id="NgwSigz2kE.01AFirstPaintDefer" package="NgwSigz2kE" required_version="6.0"/>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/01B-first-paint-defer" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="NgwSigz2kE.01BFirstPaintDefer" package="NgwSigz2kE" required_version="6.0"/>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
     <icon src="icon.png"/>
-    <name>01A-first-paint-defer</name>
+    <name>01B-first-paint-defer</name>
     <tizen:profile name="tv-samsung"/>
     <tizen:setting screen-orientation="landscape" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
     <tizen:video_splash_screen ready_when="first-paint">

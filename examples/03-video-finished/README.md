@@ -1,3 +1,9 @@
+<!--
+  Copyright 2021 Samsung Electronics. All rights reserved.
+  Use of this source code is governed by a BSD-style license that can be
+  found in the LICENSE file.
+-->
+
 # Video Finished example
 
 The `video-finished` event is received by the runtime, when the video is no longer playing. The expected difference between `"Loaded"` and `"Focused"` logs is the length of the video, take away few hundreds milliseconds for application loading.

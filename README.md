@@ -1,3 +1,9 @@
+<!--
+  Copyright 2021 Samsung Electronics. All rights reserved.
+  Use of this source code is governed by a BSD-style license that can be
+  found in the LICENSE file.
+-->
+
 # Video Splash Screen Demos
 
 Video Splash Screen displays a short video while the application is loading and a static image after the video finished and the application is not loaded yet.

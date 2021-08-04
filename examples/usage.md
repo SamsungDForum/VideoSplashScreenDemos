@@ -1,3 +1,9 @@
+<!--
+  Copyright 2021 Samsung Electronics. All rights reserved.
+  Use of this source code is governed by a BSD-style license that can be
+  found in the LICENSE file.
+-->
+
 # Using the examples
 
 Each example directory has at least a readme and `widget` directory. That directory contains the files needed to build an example.

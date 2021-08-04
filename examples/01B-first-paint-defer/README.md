@@ -1,3 +1,9 @@
+<!--
+  Copyright 2021 Samsung Electronics. All rights reserved.
+  Use of this source code is governed by a BSD-style license that can be
+  found in the LICENSE file.
+-->
+
 # First Paint example B
 
 The application screen should appear as soon as the first paint of the page becomes available. With 10 big, slow-loading, asynchronous scripts, this will be long before `"Loaded"` is logged.
